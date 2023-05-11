@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}

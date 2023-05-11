@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "rootDir": "./src",
+      "target": "es2015",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "noImplicitAny": false
+    },
+    "include": [
+      "src/ts"
+    ]
+  }
