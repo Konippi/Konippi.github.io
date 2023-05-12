@@ -14,6 +14,14 @@ const webpackConfig = {
             {
                 test: /\.ts$/,
                 use: "ts-loader"
+            },
+            {
+                test: /\.(scss)$/,
+                user: [
+                    "style-loader", // css in js -> html
+                    "css-loader",   // css -> css in js
+                    "sass-loader"   // sass -> css
+                ]
             }
         ]
     }
