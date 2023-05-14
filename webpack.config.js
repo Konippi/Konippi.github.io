@@ -18,9 +18,9 @@ const webpackConfig = {
             {
                 test: /\.(scss)$/,
                 user: [
-                    "style-loader", // css in js -> html
-                    "css-loader",   // css -> css in js
-                    "sass-loader"   // sass -> css
+                    "style-loader", // 3. css in js -> html
+                    "css-loader",   // 2. css -> css in js
+                    "sass-loader"   // 1. sass -> css
                 ]
             }
         ]
